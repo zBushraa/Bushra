@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bushra Jannath</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Bushra</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <!-- <li><a href="projects.html">Projects</a></li> -->
+          
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Bushra</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="education.html" onclick="toggleMenu()">Education</a></li>
+          <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+        </div>      
+    </nav>
+
+    <!-- <section class="about-section sec-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="assets/prpo.jpg" alt="about img">
+            </div>
+          </div>
+          <div class="about-text">
+            <p>Bio ..................</p>
+            <h3>Skills</h3>
+            <div class="skills">
+              <div class="skill-item">HTML</div>
+              <div class="skill-item">css</div>
+              <div class="skill-item">Java</div>
+              <div class="skill-item">Arduino</div>
+              <div class="skill-item">Data</div>
+              <div class="skill-item">Makeup</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+       
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Embaded System</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />Running Student</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am currently enrolled in the Independent University Bangladesh CSE program, where I am gaining a strong foundation in computer science principles, algorithms, and software development. My coursework includes a diverse range of subjects, from data structures and algorithms to artificial intelligence and machine learning.My enthusiasm lies in the intersection of software engineering, artificial intelligence, and data science. I am particularly fascinated by how technology can be harnessed to create intelligent systems that make a positive impact on various industries and people's lives.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <!-- <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul> -->
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Bushra Z. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
