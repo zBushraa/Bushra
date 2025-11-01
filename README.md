@@ -1,11 +1,11 @@
-<h1 align="center">Pink Hover Template By Samiun Mahmud </h1>
+<h1 align="center">Pink Hover Template By BUSHRA </h1>
 
 
 
 
 - 🌱 Download Please Permission From Admin **
 
-- 📫 How to reach me **samiunarno.iub@gmail.com**
+- 📫 How to reach me **z.bushraaa@gmail.com**
 
 
 
@@ -19,5 +19,6 @@
 <a href="https://codeforces.com/profile/samiunarno" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="samiunarno" height="30" width="40" /></a>
 <a href="https://discord.gg/samiunarno" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="samiunarno" height="30" width="40" /></a>
 </p>
+
 
 
